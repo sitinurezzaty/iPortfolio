@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Ezzaty's iPortfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="banner" id="sec">
+            <header>
+                <a href="#" class="logo">iportfolio</a>
+                <div id="toggle" onclick="toggle()"></div>
+            </header>
+            <div class="content">
+                <h2>Hello there,<br>I'm<span> Siti Nurezzaty</span></h2>
+                <p>An designer and also a web developer.</p>
+                <a href="about.html">Know More</a>
+            </div>
+            <ul class="sci">
+                <li><a href="#"><img src="facebook.png"></a></li>
+                <li><a href="#"><img src="twitter.png"></a></li>
+                <li><a href="#"><img src="github.png"></a></li>
+            </ul>
+        </section>
+        <div id="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="places.html">Treasure Places</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <script type="text/javascript">
+            function toggle(){
+                var sec = document.getElementById('sec');
+                var nav = document.getElementById('navigation');
+                sec.classList.toggle('active');
+                nav.classList.toggle('active');
+            }
+        </script>
+    </body>
+</html>

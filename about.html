@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Ezzaty's iPortfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="banner" id="sec">
+            <!--HEADER-->
+            <header>
+                <a href="index.html" class="logo">About Me</a>
+                <div id="toggle" onclick="toggle()"></div>
+            </header>
+            <!--BODY CONTENT-->
+            <div class="content-about">
+                <div class="main" id="section1">
+                    <div class="container-about">
+                        <h1>Siti Nurezzaty Mohd Rafek</h1>
+                        <h2>UI / UX Designer & Developer</h2>
+                        <div class="image">
+                            <img src="img-person.png">
+                        </div>
+                        <p>A designer and  a web developer. I am dedicated, easygoing and like something that was challenging.</p>
+                        <a href="#section2">Getting More</a>
+                    </div>
+                </div>
+                  
+                <div class="main" id="section2">
+                    <h2>Section 2</h2>
+                    <a href="#section1">Back</a>
+                </div>
+            </div>
+        </section>
+        <!--NAVIGATION-->
+        <div id="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="places.html">Treasure Places</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <script type="text/javascript">
+            function toggle(){
+                var sec = document.getElementById('sec');
+                var nav = document.getElementById('navigation');
+                sec.classList.toggle('active');
+                nav.classList.toggle('active');
+            }
+        </script>
+    </body>
+</html>

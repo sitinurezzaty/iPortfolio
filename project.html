@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Ezzaty's iPortfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styleproject.css">
+    </head>
+    <body>
+        <section class="banner" id="sec">
+            <!--HEADER-->
+            <header>
+                <a href="index.html" class="logo">Project</a>
+                <div id="toggle" onclick="toggle()"></div>
+            </header>
+            <!--BODY CONTENT-->
+            <section class="gallery">
+                <div class="container-project1">
+                    <div class="row">
+                        <div class="gallery-filter">
+                            <span class="filter-item active" data-filter="all">All</span>
+                            <span class="filter-item" data-filter="cplus">C++</span>
+                            <span class="filter-item" data-filter="java">Java</span>
+                            <span class="filter-item" data-filter="php">HTML/PHP</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- gallery item start -->
+                        <div class="gallery-item cplus">
+                            <div class="gallery-item-inner">
+                                <div class="container-project">
+                                    <div class="content">
+                                        <h3>Bookstore Management System</h3>
+                                        <p>This is my first C++ programming which I develop during my first semester.</p>
+                                        <img src="bookstore.png" alt="shoe">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- gallery item end -->
+                        <!-- gallery item start -->
+                        <div class="gallery-item java">
+                            <div class="gallery-item-inner">
+                                <div class="container-project">
+                                    <div class="content">
+                                        <h3>Theme Park Management System</h3>
+                                        <p>This is my first C++ programming which I develop during my first semester.</p>
+                                        <img src="img/headphone-1.jpg" alt="headphone">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- gallery item end -->
+                        <!-- gallery item start -->
+                        <div class="gallery-item java">
+                            <div class="gallery-item-inner">
+                                <div class="container-project">
+                                    <div class="content">
+                                        <h3>Student Record Management System</h3>
+                                        <p>This is my first C++ programming which I develop during my first semester.</p>
+                                        <img src="img/camera-1.jpg" alt="camera">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- gallery item end -->
+                        <!-- gallery item start -->
+                        <div class="gallery-item php">
+                            <div class="gallery-item-inner">
+                                <div class="container-project">
+                                    <div class="content">
+                                        <h3>Tomatus Order Management System</h3>
+                                        <p>This is my first C++ programming which I develop during my first semester.</p>
+                                        <img src="img/headphone-2.jpg" alt="headphone">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- gallery item end -->
+                        <!-- gallery item start -->
+                        <div class="gallery-item php">
+                            <div class="gallery-item-inner">
+                                <div class="container-project">
+                                    <div class="content">
+                                        <h3>eSijilKKP <br>System</h3>
+                                        <p>This is my first C++ programming which I develop during my first semester.</p>
+                                        <img src="img/headphone-2.jpg" alt="headphone">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- gallery item end -->
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!--NAVIGATION-->
+        <div id="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="places.html">Treasure Places</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <script type="text/javascript">
+            function toggle(){
+                var sec = document.getElementById('sec');
+                var nav = document.getElementById('navigation');
+                sec.classList.toggle('active');
+                nav.classList.toggle('active');
+            }
+        </script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

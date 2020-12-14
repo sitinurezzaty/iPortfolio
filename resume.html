@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Ezzaty's iPortfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="banner" id="sec">
+            <header>
+                <a href="#" class="logo">Resume</a>
+                <div id="toggle" onclick="toggle()"></div>
+            </header>
+            <div class="container-contact">
+                <div class="row">
+                    <div class="column">
+                        <img src="img-person.png"><strong style="font-size: 2em;"><i>An Developer</i></strong>
+                            <div class="container-skills">
+                                <br><br>
+                              <h2>Skills</h2>
+                              <div class="skills">
+                                  <span class="name">HTML</span>
+                                  <div class="percent">
+                                      <div class="progress" style="width: 95%;"></div>
+                                  </div>
+                                  <span class="value">95%</span>
+                              </div>  
+                              <div class="skills">
+                                  <span class="name">css</span>
+                                  <div class="percent">
+                                      <div class="progress" style="width: 90%;"></div>
+                                  </div>
+                                  <span class="value">90%</span>
+                              </div> 
+                              <div class="skills">
+                                  <span class="name">javascript</span>
+                                  <div class="percent">
+                                      <div class="progress" style="width: 45%;"></div>
+                                  </div>
+                                  <span class="value">45%</span>
+                              </div> 
+                              <div class="skills">
+                                  <span class="name">photoshop</span>
+                                  <div class="percent">
+                                      <div class="progress" style="width: 50%;"></div>
+                                  </div>
+                                  <span class="value">50%</span>
+                              </div> 
+                          </div>
+                    </div>
+                    <div class="column">
+                        <table border="1">
+                            <tr>
+                                <td>Personal Background</td>
+                                <td>To obtain more experience in developing the HTML and PHP.</td>
+                            </tr>
+                            <tr>
+                                <td>Previous Education</td>
+                                <td>- UiTM Cawangan Melaka Kampus Jasin
+                                <br>- SMK Tun Dr Ismail</td>
+                            </tr>
+                            <tr>
+                                <td>Achievements</td>
+                                <td>Dean's Award
+                                <br>- Semester 1 (GPA: 3.78)
+                                <br>- Semester 2 (GPA: 3.90)
+                                <br>- Semester 3 (GPA: 3.95)
+                                <br>- Semester 4 (GPA: 3.80)</td>
+                            </tr>
+                            <tr>
+                                <td>Work Experience</td>
+                                <td>Shop Assistant (2017-2019)
+                                    <br>Manage the shop as cashier, store keeper and sales assistant
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Project</td>
+                                <td>- Design Database Structure for Tomatus Station
+                                    <br>Design a proper database structure that can minimize the problem of data redundancy and data anomalies in the store.
+                                    <br>- Theme Park Management System
+                                    <br>To show the process in the theme park management system in term of admission ticket and customer registration.
+                                    <br>- Tomatus Order Management System
+                                    <br>It evolves the process of ordering the stock between the seller and supliers.
+                                    <br>- eSijilKKP System
+                                    <br>The system that was made for printing a various type of certificate for the usage of Kolej Komuniti Pagoh's Staff.
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+              </div>
+        </section>
+        <!--NAVIGATION-->
+        <div id="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="places.html">Treasure Places</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <script type="text/javascript">
+            function toggle(){
+                var sec = document.getElementById('sec');
+                var nav = document.getElementById('navigation');
+                sec.classList.toggle('active');
+                nav.classList.toggle('active');
+            }
+        </script>
+    </body>
+</html>

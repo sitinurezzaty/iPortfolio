@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Ezzaty's iPortfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="banner" id="sec">
+            <header>
+                <a href="#" class="logo">Contact</a>
+                <div id="toggle" onclick="toggle()"></div>
+            </header>
+            <div class="container-contact">
+                <div style="text-align:center">
+                  <h2>Contact Me</h2>
+                  <p>Any inquiries? Feel free to contact me or leave a message:</p>
+                </div>
+                <div class="row">
+                  <div class="column">
+                    <img src="green.png" style="width:100%">
+                  </div>
+                  <div class="column">
+                    <form action="/action_page.php">
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      <label for="region">Country</label>
+                      <select id="region" name="region">
+                        <option value="johor">Johor</option>
+                        <option value="pahang">Pahang</option>
+                        <option value="perak">Perak</option>
+                        <option value="terengganu">Terengganu</option>
+                        <option value="perlis">Perlis</option>
+                        <option value="selangor">Selangor</option>
+                        <option value="negeri sembilan">Negeri Sembilan</option>
+                        <option value="kelantan">Kelantan</option>
+                        <option value="kedah">Kedah</option>
+                        <option value="pulau pinang">Pulau Pinang</option>
+                        <option value="melaka">Melaka</option>
+                        <option value="sabah">Sabah</option>
+                        <option value="sarawak">Sarawak</option>
+                        <option value="wilayah persekutuan">Wilayah Persekutuan</option>
+                      </select>
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                      <input type="submit" value="Submit">
+                    </form>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!--NAVIGATION-->
+        <div id="navigation">
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="resume.html">Resume</a></li>
+              <li><a href="project.html">Project</a></li>
+              <li><a href="places.html">Treasure Places</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </div>
+        <script type="text/javascript">
+            function toggle(){
+                var sec = document.getElementById('sec');
+                var nav = document.getElementById('navigation');
+                sec.classList.toggle('active');
+                nav.classList.toggle('active');
+            }
+        </script>
+    </body>
+</html>
