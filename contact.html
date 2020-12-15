@@ -25,9 +25,24 @@
                     <form action="/action_page.php">
                       <label for="fname">First Name</label>
                       <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      
                       <label for="lname">Last Name</label>
                       <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                      <label for="region">Country</label>
+                      
+                      <label for="gender">Gender</label>
+                      <input style="margin-right: 10px;" type="radio" name="gender" id="male">Male
+                      <input style="margin-right: 10px;" type="radio" name="gender" id="female">Female<br><br>
+
+                      <label for="country">Country</label>
+                      <select id="country" name="country">
+                        <option value="malaysia">Malaysia</option>
+                        <option value="brunei">Brunei</option>
+                        <option value="belgium">Belgium</option>
+                        <option value="united state">United States</option>
+                        <option value="australia">Australia</option>
+                      </select>
+
+                      <label for="region">Region</label>
                       <select id="region" name="region">
                         <option value="johor">Johor</option>
                         <option value="pahang">Pahang</option>
@@ -44,6 +59,12 @@
                         <option value="sarawak">Sarawak</option>
                         <option value="wilayah persekutuan">Wilayah Persekutuan</option>
                       </select>
+
+                      <label for="subject">Subject</label><br>
+                      <input style="margin-right: 20px;" type="checkbox" name="general" id="general">General Inquiry<br>
+                      <input style="margin-right: 20px;" type="checkbox" name="suggestion" id="suggestion">Site Suggestion<br>
+                      <input style="margin-right: 20px;" type="checkbox" name="leadership" id="leadeship">Leadership<br><br>
+                      
                       <label for="subject">Subject</label>
                       <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
                       <input type="submit" value="Submit">
