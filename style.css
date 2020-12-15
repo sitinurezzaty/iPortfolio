@@ -10,6 +10,11 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+#icon
+{
+    width: 80px;
+    cursor: pointer;
+}
 /*HEADER*/
 header
 {
@@ -241,12 +246,6 @@ header #toggle:after
 }
 
 /*PLACES.HTML*/
-.content-places p
-{
-    color: #000;
-    font-size: 1.0em;
-    font-weight: 300;
-}
 .container
 {
     width: 1300px;
