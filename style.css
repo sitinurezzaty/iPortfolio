@@ -611,11 +611,11 @@ img{
 }
 .container-skills .skills:nth-child(2) .percent .progress
 {
-    background: linear-gradient(45deg, #1fe6ff, #673Ab7);
+    background: linear-gradient(45deg, #3bc0ff, #33ff33);
 }
 .container-skills .skills:nth-child(3) .percent .progress
 {
-    background: linear-gradient(45deg, #3bc0ff, #33ff00);
+    background: linear-gradient(45deg, #3bc0ff, #1f221f);
 }
 .container-skills .skills:nth-child(4) .percent .progress
 {
