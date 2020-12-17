@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Ezzaty's iPortfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="banner" id="sec">
+            <header>
+                <a href="#" class="logo">Me and Myself</a>
+                <div id="toggle" onclick="toggle()"></div>
+            </header>
+            <div class="container-contact">
+                <div class="row">
+                  <div class="column">
+                    <h2 style="color: lightslategrey;">Myself in 10 Years</h2>
+                    <br>
+                    <p>Moreover, I will be the someone who can take any challenges that come in term of work with efficiency.
+                        Through this journey, I may become more passionate to become the programmer as I have face many 
+                        obstacles in my life until I age 30. I also want to pursue my study to Master or PHD as my ambition 
+                        now is I want to build my own software company in the future.</p>
+                  </div>
+                  <div class="column">
+                      <h2 style="color: lightslategrey;">Motivational Quotes</h2>
+                      <br>
+                      <blockquote>
+                        <p style="text-align: center;"><i>"What defines us is how we rise after falling"</i></p>
+                      </blockquote>
+                      <br>
+                      <p>I really like this quote because it was really help to comfort me when I felt down
+                          or when I have bad day. I will always look and read this quote for me to being positive
+                          again and for that I put this quote's as my wallpaper phone. So that, I can read it 
+                          every morning before I start my day!
+                      </p>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!--NAVIGATION-->
+        <div id="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about2.html">About</a></li>
+                <li><a href="facts.html">My Facts</a></li>
+                <li><a href="#">Favourite Books</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="places.html">Treasure Places</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <script type="text/javascript">
+            function toggle(){
+                var sec = document.getElementById('sec');
+                var nav = document.getElementById('navigation');
+                sec.classList.toggle('active');
+                nav.classList.toggle('active');
+            }
+        </script>
+    </body>
+</html>
