@@ -615,7 +615,7 @@ img{
 }
 .container-skills .skills:nth-child(3) .percent .progress
 {
-    background: linear-gradient(45deg, #3bc0ff, #1f221f);
+    background: linear-gradient(45deg, #3bc0ff, #f1e210);
 }
 .container-skills .skills:nth-child(4) .percent .progress
 {
